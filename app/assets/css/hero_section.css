@@ -1,0 +1,33 @@
+section.hero {
+    margin: 5rem 0;
+}
+
+.text-label,
+.text-hero-bold,
+.text-hero-regular {
+    margin: 24px 0;
+}
+
+.text-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.text-hero-bold {
+    /* font-size: 64px; */
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.text-hero-regular {
+    /* font-size: 16px; */
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 31px;
+}
+#dynamic_name, .text-center span{
+    color: #fec941;
+    font-family: 'Pacifico';
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding-top: 56px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo_image {
+    width: 80px; 
+    height: auto;
+    margin-right: 10px; 
+}
+.logo_text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pacifico';
+    font-size: 2rem; 
+    font-weight: bolder;
+    color: #fec941;
+}
+.book, .tracker {
+    line-height: 1; /* Ensure the text lines up properly */
+}
+
+
+/* User profile styles */
+.userPicture{
+    width: 40px;
+    background-color: transparent !important; 
+    cursor: pointer;
+    border: 3px solid transparent; /* Default state with transparent border */
+    transition: border-color 0.3s; /* Smooth transition for the border color */
+
+}
+.userPicture:hover{
+    background-color: transparent !important;
+    border-color: #fec941;
+}
+
+
+
+/* Removing toggler button default styles */
+.custom_toggler {
+    border: none !important; /* Removes border */
+    color: inherit !important; /* Inherit text color */
+    transition: background-color 0.3s;
+}
+
+.custom_toggler:hover,
+.custom_toggler:focus,
+.custom_toggler:active {
+    box-shadow: none !important;
+}
+
+
+.custom_toggler.not-logged-in{
+    background-color: #fec941;
+}
+
+
+
+a {
+    color: inherit; /* Removes the default blue color */
+    text-decoration: none;
+}
+.outline_btn {
+    color: #1b1a1a; 
+    background-color: inherit;
+    border-color: #fec941; 
+    border-radius: 50px;
+
+
+}
+
+.outline_btn:hover {
+    background-color: #fec941; 
+
+}
+
+.yellow_btn {
+    color: #1b1a1a;
+    background-color: #fec941;
+    border-radius: 50px;
+
+}
+
+.yellow_btn:hover {
+    background-color: inherit;
+    border-color: #fec941; 
+}
+
+
+.custom_form:focus {
+    border-color: #fec941;
+    box-shadow: 0 0 0 0.2rem rgba(254, 201, 65, 1); 
+    outline: none;
+}
+
+
+
+.search-input {
+    background: url('http://localhost/BookTracker/app/assets/icons/search_28dp_434343_FILL0_wght400_GRAD0_opsz24.svg') no-repeat right 10px center;
+    padding-right: 40px;
+    background-size: 20px 20px; /* Final size of the icon when input is focused */
+
+}
+
+.bookCoverHolder {
+    width: 182px;
+    height: 304px;
+    margin-top: 80px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+.bookCoverHolder .upload {
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0 0 21px 21px;
+    left: 0;
+    width: 172px;
+    height: 100px;
+    margin-left: 12px;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bookCoverHolder:hover .upload {
+    display: flex;
+}
+
+
+.avatarHolder {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    position: relative;
+    background-size: cover;
+    overflow:hidden;
+    
+
+}
+.avatarHolder .upload {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.avatarHolder:hover .upload {
+    display: flex;
+}
+
+
+.upload span {
+    color: white;
+    font-size: 35px;
+}
+
+
+@media (max-width: 400px) and (max-height: 820px) {
+    .book_row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
