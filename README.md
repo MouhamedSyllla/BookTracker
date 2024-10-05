@@ -1,5 +1,5 @@
 # BookTracker
-BookTracker est une application web réalisée dans le cadre d'un projet de dévelopement web 
+BookTracker est une application web de gestion de collecion de livres réalisée dans le cadre d'un projet de dévelopement web 
 
 L'app permet à ses utilisateurs de gérer leur collection de livres en leur permettant d'ajouter facilement de nouveaux titres, de modifier les informations de leurs ouvrages existants ou de supprimer ceux dont ils n'ont plus besoin. Ils peuvent également se partager les ouvrages par des prêts qu'ils pourront suivre à tout moment pour garder une trace de l'historique des emprunts. En quelques clics, ils peuvent explorer leur collection à travers des recherches ciblées.
 
