@@ -24,7 +24,7 @@ L'app permet à ses utilisateurs de gérer leur collection de livres en leur per
 
 **Gestion des sessions et authentification** : Utilisation des sessions PHP et des cookies, gestion de l'authentification des utilisateurs (connexion/déconnexion) et mesures de sécurité (hachage de mots de passe).
 
-**Architecture MVC** : Structuration du programme avec le modèle Model-View-Controller (MVC) et structuration du code PHP selon ce modèle.
+**Architecture MVC** : Structuration du programme selon le modèle Model-View-Controller (MVC).
 
 ![1uuBCO0D9y9BuMUQeQyCjuQ-ezgif com-crop](https://github.com/user-attachments/assets/0862f25e-33d8-4966-ab0a-5e0764be6719)
 
