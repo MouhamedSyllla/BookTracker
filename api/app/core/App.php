@@ -8,6 +8,13 @@ class App {
     public function __construct() { 
         // Parse the URL
         $url = $this->parseUrl();
+
+        // Remove the first item (api) and re-index
+        array_shift($url);
+
+        // Ensure re-indexing
+        $url = array_values($url);
+
         // Check if the controller file exists
         if (isset($url[0]) && file_exists(APPROOT . 'app/controllers/' . $url[0] . 'Controller.php')) {
             $this->controller = $url[0] . 'Controller';

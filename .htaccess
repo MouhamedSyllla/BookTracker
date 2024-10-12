@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /BookTracker/
+RewriteBase /BookTracker/api
 
 # Redirect requests to index.php with ?url=
 RewriteCond %{REQUEST_FILENAME} !-f

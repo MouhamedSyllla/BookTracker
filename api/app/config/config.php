@@ -1,6 +1,6 @@
 <?php
 // Base URL of the application
-define('BASE_URL', 'http://localhost/BookTracker');
+define('BASE_URL', 'http://localhost/BookTracker/api');
 // define('BASE_URL', 'http://192.168.1.57/BookTracker');
 
 
